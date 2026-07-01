@@ -104,13 +104,10 @@ The developed prototype successfully demonstrated:
 - Hardware-software integration
 - Stable autonomous movement
 
-> **Project Images**
 
-*(Add prototype images here.)*
+## 🎥 Demo Video
 
-> **Demo Video**
-
-*(Add demonstration video here.)*
+[▶️ Watch the Demo Video](working.mp4)
 
 ---
 
