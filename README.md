@@ -93,25 +93,7 @@ The project involved complete hardware integration, including motor selection, b
 - System Integration
 - Battery Sizing
 - Motor Selection
-
 ---
-
-## 📂 Repository Structure
-
-```
-AiravatX-Autonomous-Trash-Cleaning-Robot
-│
-├── README.md
-├── Code/
-├── Documentation/
-├── Images/
-├── Videos/
-├── Circuit_Diagram/
-└── CAD_Design/
-```
-
----
-
 ## 📊 Results
 
 The developed prototype successfully demonstrated:
