@@ -1,113 +1,157 @@
-# Autonomous-trash-cleaning-bot--AiravatX
-AiravatX - Autonomous Trash Cleaning Robot
+# AiravatX – Autonomous Trash Cleaning Robot
 
-An autonomous mobile robot designed for intelligent waste collection using Raspberry Pi, LiDAR, and SLAM for real-time obstacle detection, mapping, and autonomous navigation.
+An autonomous mobile robot developed for intelligent waste collection using **Raspberry Pi**, **LiDAR**, and **SLAM** for real-time obstacle detection, mapping, and autonomous navigation.
 
-Overview
+---
 
-AiravatX is an autonomous trash-cleaning robot developed to automate waste collection in public and indoor environments. The robot combines embedded systems, robotics, and autonomous navigation technologies to detect obstacles, map its surroundings, and move safely without manual intervention.
+## 📖 Overview
 
-The project integrates LiDAR, Raspberry Pi, motor drivers, sensors, and battery-powered drive systems to achieve reliable autonomous operation.
+AiravatX is an autonomous trash-cleaning robot designed to automate waste collection by integrating embedded systems, robotics, and autonomous navigation technologies. The robot utilizes **LiDAR** for obstacle detection and environment scanning, while **SLAM (Simultaneous Localization and Mapping)** enables real-time mapping and localization for safe navigation.
 
-Objectives
-Develop an autonomous robot capable of intelligent navigation.
-Detect and avoid obstacles using LiDAR.
-Generate real-time maps using SLAM.
-Design an efficient battery-powered drive system.
-Integrate embedded hardware and software into a complete robotic platform.
-Hardware Used
-Raspberry Pi
-LiDAR Sensor
-Motor Drivers
-DC Geared Motors
-Wheels
-Battery Pack
-Chassis
-Motor Mounts
-Power Distribution Circuit
-Sensors
-Trash Collection Mechanism
-Software Used
-Python
-Raspberry Pi OS
-ROS
-SLAM Toolbox
-Features
-Autonomous Navigation
-LiDAR-based Obstacle Detection
-Real-time Environment Mapping
-SLAM-based Localization
-Battery-powered Operation
-Hardware-Software Integration
-Differential Drive System
-Working Principle
-LiDAR continuously scans the surroundings.
-Raspberry Pi processes LiDAR data.
-SLAM Toolbox generates a real-time map.
-Obstacles are detected and avoided.
-Motor drivers receive navigation commands.
-The robot autonomously travels through the environment while performing waste collection.
-My Contributions
-Designed and assembled the robot hardware.
-Selected motors based on torque calculations.
-Calculated battery capacity based on system power requirements.
-Integrated Raspberry Pi, motor drivers, sensors, and battery system.
-Implemented LiDAR-based obstacle detection.
-Configured SLAM Toolbox for real-time mapping and localization.
-Assisted in system integration and prototype testing.
-Skills Demonstrated
-Embedded Systems
-Robotics
-Raspberry Pi
-Python
-LiDAR
-SLAM
-Autonomous Navigation
-Sensor Interfacing
-Motor Drivers
-Hardware Integration
-System Integration
-Battery Sizing
-Motor Selection
-Repository Structure
-Code/
-Documentation/
-Circuit_Diagram/
-CAD_Design/
-Images/
-Videos/
-README.md
-Results
+The project involved complete hardware integration, including motor selection, battery sizing, motor drivers, sensors, and Raspberry Pi-based control, resulting in a functional autonomous robotic platform.
+
+---
+
+## 🎯 Objectives
+
+- Develop an autonomous robot for intelligent waste collection.
+- Implement LiDAR-based obstacle detection and avoidance.
+- Generate real-time environment maps using SLAM.
+- Design an efficient battery-powered drive system.
+- Integrate hardware and software for autonomous robotic operation.
+
+---
+
+## 🔧 Hardware Used
+
+- Raspberry Pi
+- LiDAR Sensor
+- Motor Drivers
+- DC Geared Motors
+- Battery Pack
+- Chassis
+- Wheels
+- Power Distribution System
+- Sensors
+
+---
+
+## 💻 Software Used
+
+- Python
+- Raspberry Pi OS
+- ROS
+- SLAM Toolbox
+
+---
+
+## ✨ Features
+
+- Autonomous Navigation
+- LiDAR-Based Obstacle Detection
+- Real-Time Environment Mapping
+- SLAM-Based Localization
+- Differential Drive System
+- Hardware-Software Integration
+
+---
+
+## ⚙️ Working Principle
+
+1. The LiDAR continuously scans the surrounding environment.
+2. Raspberry Pi processes the LiDAR data in real time.
+3. SLAM Toolbox generates a map while estimating the robot's position.
+4. Obstacles are detected and avoided during navigation.
+5. Motor drivers receive control commands to move the robot safely through the environment.
+
+---
+
+## 👨‍💻 My Contributions
+
+- Designed and assembled the complete robotic platform.
+- Selected motors based on torque calculations.
+- Calculated battery capacity based on system power requirements.
+- Integrated Raspberry Pi, motor drivers, sensors, and battery system.
+- Implemented LiDAR-based obstacle detection.
+- Configured SLAM Toolbox for real-time mapping and localization.
+- Performed hardware integration, testing, and prototype validation.
+
+---
+
+## 🛠️ Skills Demonstrated
+
+- Embedded Systems
+- Robotics
+- Raspberry Pi
+- Python
+- LiDAR
+- SLAM
+- Autonomous Navigation
+- Sensor Interfacing
+- Motor Drivers
+- Hardware Integration
+- System Integration
+- Battery Sizing
+- Motor Selection
+
+---
+
+## 📂 Repository Structure
+
+```
+AiravatX-Autonomous-Trash-Cleaning-Robot
+│
+├── README.md
+├── Code/
+├── Documentation/
+├── Images/
+├── Videos/
+├── Circuit_Diagram/
+└── CAD_Design/
+```
+
+---
+
+## 📊 Results
 
 The developed prototype successfully demonstrated:
 
-Autonomous obstacle detection
-LiDAR-based mapping
-SLAM localization
-Autonomous navigation
-Integrated embedded robotic system
+- Autonomous obstacle detection
+- Real-time SLAM mapping
+- LiDAR-based navigation
+- Hardware-software integration
+- Stable autonomous movement
 
-(Add photos and videos here.)
+> **Project Images**
 
-Future Improvements
-Autonomous path planning
-AI-based waste detection
-GPS integration
-IoT monitoring dashboard
-Cloud-based analytics
-Solar-powered charging
-Author
-Deena Dhayalan G K
+*(Add prototype images here.)*
 
-Electronics and Communication Engineering
+> **Demo Video**
 
-College of Engineering Guindy
+*(Add demonstration video here.)*
 
-Email:
-dhayalandeena811@gmail.com
+---
 
-LinkedIn:
-https://linkedin.com/in/deenadhayalangk
+## 🚀 Future Improvements
 
-GitHub:
-https://github.com/DeenaDhayalanGK
+- Autonomous path planning
+- AI-based waste detection
+- GPS-assisted navigation
+- IoT-based remote monitoring
+- Cloud data logging
+- Solar-assisted charging
+
+---
+
+## 👤 Author
+
+**Deena Dhayalan G K**
+
+B.E. Electronics and Communication Engineering  
+College of Engineering Guindy (Anna University)
+
+📧 Email: **dhayalandeena811@gmail.com**
+
+🔗 LinkedIn: **https://www.linkedin.com/in/deenadhayalangk**
+
+💻 GitHub: **https://github.com/DeenaDhayalanGK**
